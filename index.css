@@ -1,0 +1,320 @@
+/* Reset some default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Basic styling for header */
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+
+/* Dropdown menu */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Hero section */
+
+.hero {
+    background-image: url('true.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 0;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+
+/* Search bar */
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input[type="search"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 80%;
+}
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* Footer styles here */
+
+
+/* Set background image on the body to cover the full page with no repeat */
+
+body {
+    background-image: url('true.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Fixed background */
+    background-repeat: no-repeat;
+    /* No repeat */
+}
+
+
+/* ... (Your existing styles) ... */
+
+
+/* Footer styles */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content li {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+
+/* Scroll background change */
+
+body {
+    background-image: url('background1.jpg');
+    /* Initial background */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease;
+    /* Smooth transition */
+}
+
+
+/* Change background on scrolling */
+
+body.scrolled {
+    background-image: url('background2.jpg');
+    /* Updated background */
+}
+
+
+/* ... (Your existing styles) ... */
+
+
+/* Customize fonts for the entire page */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Style for the "Download" navigation component */
+
+.menu ul li:last-child {
+    margin-right: 0;
+    margin-left: 20px;
+    /* Add space between the "Help" and "Download" links */
+}
+
+
+/* Add styles for the "Download" button */
+
+.menu ul li:last-child a {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.menu ul li:last-child a:hover {
+    background-color: #0056b3;
+    /* Change the background color on hover */
+}
+
+
+/* Reset some default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Add background image and styles for the entire page */
+
+body {
+    background-image: url('your-background-image.jpg');
+    /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Navbar styles */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Transparent background with some opacity */
+    backdrop-filter: blur(10px);
+    /* Add a blur effect to the background */
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    /* Add smooth transition */
+}
+
+.logo a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu ul li a:hover {
+    color: #007BFF;
+}
+
+
+/* ... (Your existing styles) ... */
+
+
+/* Advantage Section Styles */
+
+.advantage {
+    padding: 40px 0;
+    background-color: #ffffff24;
+}
+
+.advantage h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-img-height {
+    height: 300px;
+    /* Adjust the height as needed */
+}
+
+
+/* Advantage Information Styles */
+
+.advantage-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.advantage-info h3 {
+    font-weight: bold;
+}
+
+.advantage-info ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+
+/* ... (Your existing styles) ... */

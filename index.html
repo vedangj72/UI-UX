@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truecaller</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- Add a custom font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#" class="bi bi-telephone-fill">Truecaller</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li class="dropdown">
+                        <a href="#">Privacy</a>
+                        <div class="dropdown-content">
+                            <a href="#">Option 1</a>
+                            <a href="#">Option 2</a>
+                            <a href="#">Option 3</a>
+                        </div>
+                    </li>
+                    <li><a href="#">Help</a></li>
+                    <!-- Add a new navigation component for "Download" -->
+                    <li><a href="#"><span class="bi bi-download"></span> Download</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Truecaller</h1>
+            <div class="search">
+                <input type="search" placeholder="Search">
+                <button class="search-button btn btn-primary">
+                    <span class="bi bi-search"></span>
+                </button>
+            </div>
+        </section>
+        <section class="advantage" style="background-image: url('sec.jpg');">
+            <div class="container">
+                <h2 class=" text-light-50">Advantages of Truecaller</h2>
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="card mb-4" style="background-color:#fafafa00">
+                            <img src="img3.jpg" class="card-img-top card-img-height" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Advantage 1</h5>
+                                <p class="card-text text-dark-400">Caller Identification: Truecaller allows you to identify incoming calls from unknown numbers by displaying the caller's name and photo if available in its extensive database. This feature helps you decide whether to answer
+                                    the call or not, enhancing your call screening process.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-md-4">
+                        <div class="card mb-4" style="background-color:#fafafa00">
+                            <img src="img2.jpg" class="card-img-top card-img-height" alt="Image 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Advantage 2</h5>
+                                <p class="card-text">Spam Call Blocking: Truecaller has a built-in spam call blocking feature that automatically identifies and blocks unwanted spam calls and telemarketing calls. This helps you avoid the annoyance of spam calls and ensures
+                                    that your phone is not cluttered with unwanted calls..</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-md-4">
+                        <div class="card mb-4" style="background-color:#fafafa00">
+                            <img src="img1.jpg" class="card-img-top card-img-height" alt="Image 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Advantage 3</h5>
+                                <p class="card-text">Contact Management: Truecaller offers robust contact management capabilities. It enables you to keep your contacts organized by allowing you to merge duplicate contacts, edit contact information, and even send contact requests
+                                    to friends and acquaintances. This simplifies your contact list and ensures you have up-to-date information.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Advantage Information in Points -->
+                <div class="advantage-info">
+                    <h3>Additional Advantages:</h3>
+                    <ul style="list-style: none;">
+                        <li>Easy caller identification</li>
+                        <li>Spam call blocking</li>
+                        <li>Contact management</li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h2>FAQs</h2>
+            <ul>
+                <li>How does Truecaller work?</li>
+                <li>Is Truecaller free to use?</li>
+                <li>How can I update my profile?</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
